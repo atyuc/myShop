@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Noto Sans KR", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: -0.5px;
+}
+
+button {
+	border: 1px solid #000;
+	color: #000;
+	font-weight: 600;
+}
+
+input {
+	border: 1px solid #e7e7e7;
+	width: 200px;
+	height: 30px;
+	font-size: 12px;
+}
+
+/* 화면 전체 틀 */
+.basics {
+	margin: 0px auto;
+	padding-top: 30px;
+	text-align: center;
+}
+
+#title {
+	font-weight: 600;
+	font-size: 24px;
+	padding: 10px 0;
+}
+
+/***** 입력창 *****/
+#input-body {
+	margin: 0px auto;
+}
+
+#input-body p {
+	line-height: 25px;
+	padding-bottom: 5px;
+}
+
+#input-body span {
+	padding-right: 10px;
+}
+
+#input-body button {
+	width: 150px;
+	height: 40px;
+}
+
+#input-body #content {
+	width: 280px;
+}
+
+#body-in {
+	padding-top: 10px;
+}
+
+/***** index *****/
+.index-page {
+	padding-top: 90px;
+}
+
+#button-list > p {
+	padding: 5px 0;
+}
+
+#button-list button {
+	width: 200px;
+	height: 50px;
+}
+
+/***** 결과출력 *****/
+#show-message {
+	line-height: 200px;
+}
+
+#result-body button {
+	height: 25px;
+}
+
+#result-body span {
+	padding: 0 5px;
+}
+
+.result-show {
+	padding-bottom: 10px;
+}
+
+/***** 입력메세지안내 *****/
+#input-intro {
+	color: #777;
+	padding-bottom: 0;
+}
+
+#input-id {
+	padding-bottom: 10px;
+}
+
+#input-id > input {
+	width: 250px;
+}
+
+/***** 상품 전체 목록 *****/
+.table-body {
+	overflow: hidden;
+	width: 480px;
+	margin: 0px auto;
+	padding-top: 30px;
+}
+
+table {
+	width: 100%;
+}
+
+table > thead > tr > th
+{
+	padding: 15px 0;
+	border-bottom: 1px solid #e7e7e7;
+	color: #8f8f8f;
+}
+
+table > tbody > tr > td
+{
+	height: auto;
+	padding: 20px 15px;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.table-body span {
+	line-height: 60px;
+}

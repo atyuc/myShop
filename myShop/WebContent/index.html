@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>상품 관리 프로그램</title>
+	
+	<!-- CSS -->
+	<link href="css/product.css" rel="stylesheet" type="text/css" media="all">
+	
+	<!-- 웹폰트 -->
+	<link href="http://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+	
+	<!-- 자바스크립트 -->
+	<script type="text/javascript" src="js/product.js"></script>
+</head>
+<body>
+
+<div class="basics">
+	<div class="index-page">
+		<!-- 타이틀 -->
+		<div id="title">
+			상품 관리 프로그램
+		</div>
+		
+		<!-- 버튼 -->
+		<div id="button-list">
+			<p><button onclick="newWin('insert.html')">상품 등록</button></p>
+			<p><button onclick="newWin('update.html')">상품 수정</button></p>
+			<p><button onclick="newWin('delete.html')">상품 삭제</button></p>
+			<p><button onclick="newWin('select.html')">상품 검색</button></p>
+			<p><button onclick="window.open('selectAll.jsp', '', 'width=600, height=600')">상품 리스트</button></p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
